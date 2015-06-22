@@ -1,0 +1,43 @@
+{
+	"salary_type" : {
+		"title" 		: "Lương bạn muốn tính thuộc loại gì?",
+		"option_list"	: [
+			{
+				"text" : "Gross (Tổng lương của bạn đã bao gồm các chi phí khác như bảo hiểm, thuế thu nhập cá nhân)",
+				"value": "1"
+			},
+			{
+				"text" : "Net (Số tiền mà bạn nhận được hàng tháng",
+				"value": "2"
+			}
+		],
+		"input_type"	: "radio"
+	},
+	"salary_amount" : {
+		"title" 		: "Số lương của bạn?",
+		"input_type"	: "number",
+		"placeholder"   : "VND"
+	},
+	"salary_insurance" : {
+		"title" 		: "Bạn có đóng bảo hiểm không?",
+		"option_list"	: [
+			{
+				"text" : "Bảo hiểm xã hội",
+				"value": "1"
+			},
+			{
+				"text" : "Bảo hiểm y tế",
+				"value": "2"
+			},
+			{
+				"text" : "Bảo hiểm thất nghiệp",
+				"value": "3"
+			}
+		],
+		"input_type"	: "checkbox"
+	},
+	"salary_dependence" : {
+		"title" 		: "Số người phụ thuộc?",
+		"input_type"	: "number"
+	}
+}
