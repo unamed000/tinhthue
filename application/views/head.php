@@ -6,7 +6,10 @@
 <script src="<?= base_url('assets/libraries/jquery/jquery.js') ?>"></script>
 <script src="<?= base_url('assets/libraries/foundation/js/foundation.min.js') ?>"></script>
 <script src="<?= base_url('assets/libraries/angularjs/angularjs.min.js') ?>"></script>
-<script src="<?= base_url('assets/libraries/angularjs/app/app.js') ?>"></script>
+<script src="<?= base_url('assets/libraries/angularjs/locale/locale_vn.js') ?>"></script>
 <script src="<?= base_url('assets/libraries/sweetalert/sweetalert.min.js') ?>"></script>
+<script src="<?= base_url('assets/libraries/underscore/underscore.min.js') ?>"></script>
+<script src="<?= base_url('assets/libraries/angularjs/app/app.js') ?>"></script>
 
-<title>Tính thuế của bạn</title>
+
+<title>Tính thuế của bạn V1</title>

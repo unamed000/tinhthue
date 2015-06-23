@@ -4,11 +4,11 @@
 		"option_list"	: [
 			{
 				"text" : "Gross (Tổng lương của bạn đã bao gồm các chi phí khác như bảo hiểm, thuế thu nhập cá nhân)",
-				"value": "1"
+				"value": "gross"
 			},
 			{
 				"text" : "Net (Số tiền mà bạn nhận được hàng tháng",
-				"value": "2"
+				"value": "net"
 			}
 		],
 		"input_type"	: "radio"
@@ -23,15 +23,15 @@
 		"option_list"	: [
 			{
 				"text" : "Bảo hiểm xã hội",
-				"value": "1"
+				"value": "social"
 			},
 			{
 				"text" : "Bảo hiểm y tế",
-				"value": "2"
+				"value": "health"
 			},
 			{
 				"text" : "Bảo hiểm thất nghiệp",
-				"value": "3"
+				"value": "unemployment"
 			}
 		],
 		"input_type"	: "checkbox"
